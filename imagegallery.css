@@ -1,0 +1,132 @@
+body
+{   
+    margin: 0px;
+    font: 14px Arial;
+    color: #bd8ale;
+    background: grey;
+    /* background-image: url(blackback1.jpg);
+    background-size: 10% 10%; */
+    
+}
+
+.title
+{
+    font: 50px Arial;
+    color: white;
+    padding: 20px auto;
+    text-align: center;
+}
+
+p{
+    margin: 0px 0px 1em 0px;
+}
+
+a, a:visited{
+    color: #00f;
+}
+
+.gallery
+{
+    width: 80%; margin: 0px auto; position: relative;
+}
+
+.gallery .sorting
+{   
+    margin: 0px 0px 20px 0px;
+    border: 1px solid #6d4d2e;
+   
+}
+
+.gallery .sorting span
+{
+    padding: 0px 0px 10px 0px;
+    font-family: sans-serif;
+    color: #6d4d2e;
+}
+
+.gallery .sorting div
+{
+    margin: 10px 0px 10px 10px;
+}
+
+.gallery .sorting a
+{
+    color: #fff;
+    font-size: .85em;
+    text-transform: uppercase;
+    padding: 3px 20px 3px 20px;
+}
+
+
+.gallery .sorting a:hover{
+    color: blue;
+}
+
+.gallery .sorting a.selected{
+    color: red;
+}
+
+.gallery .photos .thumbnailcontainer
+{
+    position: relative; 
+}
+
+.gallery .photos .thumbnailcontainer a.thumbnail
+{
+    position: absolute;
+}
+
+.gallery .photos .thumbnailcontainer a.thumbnail img
+{
+    width: 75px; height: 75px; border:1px solid #6d4de2;  
+}
+
+
+
+
+@media screen and (min-height:50px) and (max-height:300px){
+    body{background-image: url(smallblack.jpg);
+    padding:5px 0px 0px 5px;}
+    .gallery{ width:auto, margin-left:15px;}
+    .gallery .sorting span {display: block; color: #e5aac2; padding: 0px 0px 20px 0px;}
+    .gallery .sorting a {display:block;} 
+}
+
+@media screen and (min-height:301px) and (max-height:520px){
+    body{background-image: url(mediumblack.jpg);}
+    .gallery .sorting span {display: block; color: #e5aac2; padding: 0px 0px 20px 0px;}
+    /*.gallery .sorting a {display:block; width: 35%; float: left; margin-bottom:  5px;}*/
+}
+
+@media screen and (min-height:521px){
+    body{background-image: url(blackback1.jpg);
+    background-size: 10% 10%;}   
+   .gallery .sorting span { padding: 0px 0px 20px 0px;} 
+    
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
